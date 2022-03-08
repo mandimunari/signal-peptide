@@ -1,0 +1,72 @@
+Traceback (most recent call last):
+  File "/home/amanda/miniconda3/envs/cut_position_model/bin/streamlit", line 8, in <module>
+    sys.exit(main())
+  File "/home/amanda/.local/lib/python3.8/site-packages/click/core.py", line 1128, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/amanda/.local/lib/python3.8/site-packages/click/core.py", line 1053, in main
+    rv = self.invoke(ctx)
+  File "/home/amanda/.local/lib/python3.8/site-packages/click/core.py", line 1659, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/amanda/.local/lib/python3.8/site-packages/click/core.py", line 1395, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/amanda/.local/lib/python3.8/site-packages/click/core.py", line 754, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/amanda/miniconda3/envs/cut_position_model/lib/python3.8/site-packages/streamlit/cli.py", line 172, in main_run
+    bootstrap.load_config_options(flag_options=kwargs)
+  File "/home/amanda/miniconda3/envs/cut_position_model/lib/python3.8/site-packages/streamlit/bootstrap.py", line 318, in load_config_options
+    config.get_config_options(force_reparse=True, options_from_flags=options_from_flags)
+  File "/home/amanda/miniconda3/envs/cut_position_model/lib/python3.8/site-packages/streamlit/config.py", line 1015, in get_config_options
+    _update_config_with_toml(file_contents, filename)
+  File "/home/amanda/miniconda3/envs/cut_position_model/lib/python3.8/site-packages/streamlit/config.py", line 892, in _update_config_with_toml
+    parsed_config_file = toml.loads(raw_toml)
+  File "/home/amanda/miniconda3/envs/cut_position_model/lib/python3.8/site-packages/toml/decoder.py", line 433, in loads
+    raise TomlDecodeError("Key group not on a line by itself.",
+toml.decoder.TomlDecodeError: Key group not on a line by itself. (line 1 column 1 char 0)
+Traceback (most recent call last):
+  File "/home/amanda/miniconda3/envs/cut_position_model/bin/streamlit", line 8, in <module>
+    sys.exit(main())
+  File "/home/amanda/.local/lib/python3.8/site-packages/click/core.py", line 1128, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/amanda/.local/lib/python3.8/site-packages/click/core.py", line 1053, in main
+    rv = self.invoke(ctx)
+  File "/home/amanda/.local/lib/python3.8/site-packages/click/core.py", line 1659, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/amanda/.local/lib/python3.8/site-packages/click/core.py", line 1395, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/amanda/.local/lib/python3.8/site-packages/click/core.py", line 754, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/amanda/miniconda3/envs/cut_position_model/lib/python3.8/site-packages/streamlit/cli.py", line 172, in main_run
+    bootstrap.load_config_options(flag_options=kwargs)
+  File "/home/amanda/miniconda3/envs/cut_position_model/lib/python3.8/site-packages/streamlit/bootstrap.py", line 318, in load_config_options
+    config.get_config_options(force_reparse=True, options_from_flags=options_from_flags)
+  File "/home/amanda/miniconda3/envs/cut_position_model/lib/python3.8/site-packages/streamlit/config.py", line 1015, in get_config_options
+    _update_config_with_toml(file_contents, filename)
+  File "/home/amanda/miniconda3/envs/cut_position_model/lib/python3.8/site-packages/streamlit/config.py", line 892, in _update_config_with_toml
+    parsed_config_file = toml.loads(raw_toml)
+  File "/home/amanda/miniconda3/envs/cut_position_model/lib/python3.8/site-packages/toml/decoder.py", line 433, in loads
+    raise TomlDecodeError("Key group not on a line by itself.",
+toml.decoder.TomlDecodeError: Key group not on a line by itself. (line 1 column 1 char 0)
+Traceback (most recent call last):
+  File "/home/amanda/miniconda3/envs/cut_position_model/bin/streamlit", line 8, in <module>
+    sys.exit(main())
+  File "/home/amanda/.local/lib/python3.8/site-packages/click/core.py", line 1128, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/amanda/.local/lib/python3.8/site-packages/click/core.py", line 1053, in main
+    rv = self.invoke(ctx)
+  File "/home/amanda/.local/lib/python3.8/site-packages/click/core.py", line 1659, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/amanda/.local/lib/python3.8/site-packages/click/core.py", line 1395, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/amanda/.local/lib/python3.8/site-packages/click/core.py", line 754, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/amanda/miniconda3/envs/cut_position_model/lib/python3.8/site-packages/streamlit/cli.py", line 172, in main_run
+    bootstrap.load_config_options(flag_options=kwargs)
+  File "/home/amanda/miniconda3/envs/cut_position_model/lib/python3.8/site-packages/streamlit/bootstrap.py", line 318, in load_config_options
+    config.get_config_options(force_reparse=True, options_from_flags=options_from_flags)
+  File "/home/amanda/miniconda3/envs/cut_position_model/lib/python3.8/site-packages/streamlit/config.py", line 1015, in get_config_options
+    _update_config_with_toml(file_contents, filename)
+  File "/home/amanda/miniconda3/envs/cut_position_model/lib/python3.8/site-packages/streamlit/config.py", line 892, in _update_config_with_toml
+    parsed_config_file = toml.loads(raw_toml)
+  File "/home/amanda/miniconda3/envs/cut_position_model/lib/python3.8/site-packages/toml/decoder.py", line 433, in loads
+    raise TomlDecodeError("Key group not on a line by itself.",
+toml.decoder.TomlDecodeError: Key group not on a line by itself. (line 1 column 1 char 0)
